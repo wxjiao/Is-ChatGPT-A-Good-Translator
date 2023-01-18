@@ -1,2 +1,17 @@
 # Is-ChatGPT-A-Good-Translator
-A preliminary evaluation of ChatGPT for machine translation.
+A preliminary evaluation of ChatGPT for machine translation. [Paper](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf)
+
+
+
+## Public Impact
+### Citation
+Please kindly cite our paper if you find it helpful:
+
+```ruby
+@inproceedings{jiao2022wmt,
+  title={Is ChatGPT A Good Translator? A Preliminary Study},
+  author={Wenxiang Jiao and Wenxuan Wang and Jen-tse Huang and Xing Wang and Zhaopeng Tu},
+  booktitle = {Techical Report},
+  year      = {2023}
+}
+```
