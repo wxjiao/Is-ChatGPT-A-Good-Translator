@@ -8,10 +8,10 @@ A preliminary evaluation of ChatGPT for machine translation. [Paper](https://wxj
 Please kindly cite our paper if you find it helpful:
 
 ```ruby
-@inproceedings{jiao2022wmt,
+@inproceedings{jiao2022ischatgpt,
   title={Is ChatGPT A Good Translator? A Preliminary Study},
   author={Wenxiang Jiao and Wenxuan Wang and Jen-tse Huang and Xing Wang and Zhaopeng Tu},
-  booktitle = {Techical Report},
+  booktitle = {ArXiv},
   year      = {2023}
 }
 ```
