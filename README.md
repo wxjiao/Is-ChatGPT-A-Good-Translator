@@ -1,4 +1,4 @@
-# Is-ChatGPT-A-Good-Translator
+# Is ChatGPT A Good Translator? A Preliminary Study
 A preliminary evaluation of ChatGPT for machine translation. [Paper](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf)
 
 
