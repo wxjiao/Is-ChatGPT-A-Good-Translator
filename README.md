@@ -3,9 +3,9 @@ A preliminary evaluation of ChatGPT for machine translation. [Paper](https://wxj
 
 ## Test Data
 Please kindly cite the papers of the data sources if you use any of them.
-- Flores: The FLORES-101  Evaluation Benchmark for Low-Resource and Multilingual Machine Translation
-- WMT19 Biomedical: Findings of the WMT 2019 Biomedical Translation Shared Task: Evaluation for Medline Abstracts and Biomedical Terminologies
-- WMT20 Robustness: Findings of the WMT 2020 Shared Task on Machine Translation Robustness
+- **Flores**: The FLORES-101  Evaluation Benchmark for Low-Resource and Multilingual Machine Translation
+- **WMT19 Biomedical**: Findings of the WMT 2019 Biomedical Translation Shared Task: Evaluation for Medline Abstracts and Biomedical Terminologies
+- **WMT20 Robustness**: Findings of the WMT 2020 Shared Task on Machine Translation Robustness
 
 
 ## Public Impact
