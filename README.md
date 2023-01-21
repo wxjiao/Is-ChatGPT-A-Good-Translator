@@ -15,6 +15,24 @@ Please kindly cite the papers of the data sources if you use any of them.
     <p class="image-caption">Figure 1: Prompts advised by ChatGPT for machine translation (Date: 2022.12.16).</p>
 </div>
 
+Summarized prompts:
+- Tp1: `Translate these sentences from [SRC] to [TGT]:`
+- Tp2: `Answer with no quotes. What do these sentences mean in [TGT]?`
+- Tp3: `Please provide the [TGT] translation for these sentences:`
+
+<div align="center">
+    <img width="70%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848303-4aa969c5-61d7-4dc8-b675-5a539657db67.png">
+    <p class="image-caption">Table 1: Comparison of different prompts for ChatGPT to perform Chinese-to-English (Zh⇒En) translation.</p>
+</div>
+
+
+## Multilingual Translation
+
+
+
+
+## Translation Robustness
+
 
 
 
