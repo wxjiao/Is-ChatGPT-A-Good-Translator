@@ -12,7 +12,7 @@ Please kindly cite the papers of the data sources if you use any of them.
 
 <div align="center">
     <img width="70%" alt="Templates-by-ChatGPT" src="https://user-images.githubusercontent.com/31032829/213847658-fc977b1f-2ebd-4f2e-91b0-8df337d0a27e.png">
-    <p class="image-caption">Figure 1: Prompts advised by ChatGPT for machine translation.</p>
+    <p class="image-caption">Figure 1: Prompts advised by ChatGPT for machine translation (Date: 2022.12.16).</p>
 </div>
 
 
