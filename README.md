@@ -21,7 +21,7 @@ Summarized prompts:
 - Tp3: `Please provide the [TGT] translation for these sentences:`
 
 <div align="center">
-    <img width="70%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848303-4aa969c5-61d7-4dc8-b675-5a539657db67.png">
+    <img width="40%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848303-4aa969c5-61d7-4dc8-b675-5a539657db67.png">
     <p class="image-caption">Table 1: Comparison of different prompts for ChatGPT to perform Chinese-to-English (Zh⇒En) translation.</p>
 </div>
 
