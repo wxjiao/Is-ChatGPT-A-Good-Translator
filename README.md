@@ -28,8 +28,10 @@ Summarized prompts:
 
 ## Multilingual Translation
 
-
-
+<div align="center">
+<img width="70%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848377-8c4d40d4-04de-4735-87fe-d22fd3f70dd9.png">
+    <p class="image-caption">Table 2: Performance of ChatGPT for multilingual translation.</p>
+</div>
 
 ## Translation Robustness
 
