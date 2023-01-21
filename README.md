@@ -8,6 +8,16 @@ Please kindly cite the papers of the data sources if you use any of them.
 - **WMT20 Robustness**: Findings of the WMT 2020 Shared Task on Machine Translation Robustness
 
 
+## Translation Prompt
+
+<div align="center">
+    <img width="70%" alt="Templates-by-ChatGPT" src="https://user-images.githubusercontent.com/31032829/213847658-fc977b1f-2ebd-4f2e-91b0-8df337d0a27e.png"> title="Prompts."</img>
+    <p class="image-caption">Figure 1: Prompts advised by ChatGPT for machine translation.</p>
+</div>
+
+
+
+
 ## Public Impact
 ### Citation
 Please kindly cite our report if you find it helpful:
