@@ -36,7 +36,7 @@ Summarized prompts:
 ## Translation Robustness
 
 <div align="center">
-    <img width="60%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
+    <img width="50%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
     <p class="image-caption">Table 3: Performance of ChatGPT for translation robustness.</p>
 </div>
 
