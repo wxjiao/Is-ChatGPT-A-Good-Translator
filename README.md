@@ -29,13 +29,16 @@ Summarized prompts:
 ## Multilingual Translation
 
 <div align="center">
-<img width="70%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848377-8c4d40d4-04de-4735-87fe-d22fd3f70dd9.png">
+    <img width="70%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848377-8c4d40d4-04de-4735-87fe-d22fd3f70dd9.png">
     <p class="image-caption">Table 2: Performance of ChatGPT for multilingual translation.</p>
 </div>
 
 ## Translation Robustness
 
-
+<div align="center">
+    <img width="60%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
+    <p class="image-caption">Table 3: Performance of ChatGPT for translation robustness.</p>
+</div>
 
 
 ## Public Impact
