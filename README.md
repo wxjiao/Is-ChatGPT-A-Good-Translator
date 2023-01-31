@@ -41,7 +41,12 @@ Summarized prompts:
     <p class="image-caption">Table 2: Performance of ChatGPT for multilingual translation.</p>
 </div>
 
+
+
 ## Pivot Prompting (Updates)
+
+Adjusted prompt:
+- Tp3-pivot: `Please provide the [PIV] translation first and then the [TGT] translation for these sentences one by one:`
 
 <div align="center">
     <img width="70%" alt="Pivot-Prompt" src="https://user-images.githubusercontent.com/31032829/215824464-cd16962e-1257-446f-a9ef-5909484fb4bc.png">
