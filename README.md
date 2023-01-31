@@ -3,8 +3,10 @@
 A preliminary evaluation of ChatGPT for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf)  [[V2-arXiv]](https://arxiv.org/abs/2301.08745)
 
 We should admit that the report is far from complete with various aspects to make it more reliable in the future:
-- **Coverage of Test Data**: Currently, we randomly select 50 samples from each test set for evaluation due to the response delay of ChatGPT. Automating the testing pipeline or upgrading the ChatGPT version may help. 
-- **Translation Abilities**: We only focus on multilingual translation and translation robustness in this report. But there are some other translation abilities to be evaluated, e.g., constrained machine translation and document-level machine translation.
+- **Coverage of Test Data**: Currently, we randomly select 50 samples from each test set for evaluation due to the response delay of ChatGPT. While there are some projects in GitHub trying to automate the access process, they are vulnerable to browser refreshes or network issues. The official API by OpenAI in the future may be a better choice. Let’s just wait for a moment.
+- **Reproducibility Issue**: By querying ChatGPT multiple times, we found that the results of the same query may vary across multiple trials, which brings randomness to the evaluation results. For more reliable results, it is best to repeat the translation multiple times for each test set and report the average result.
+- **Evaluation Metric**: The results here are cal- culated by automatic metrics with single references, which may not reflect some characteristics of translation properly, e.g., nativeness. Human evaluation can provide more insights for comparing ChatGPT with commercial translators.
+- **Translation Abilities**: We only focus on multilingual translation and translation robustness in this report. However, there are some other translation abilities that can be further evaluated, e.g., constrained machine translation and document-level machine translation.
 
 
 ## Test Data
@@ -42,8 +44,13 @@ Summarized prompts:
 ## Pivot Prompting (Updates)
 
 <div align="center">
-    <img width="40%" alt="Pivot-Prompt" src="https://user-images.githubusercontent.com/31032829/215824464-cd16962e-1257-446f-a9ef-5909484fb4bc.png">
+    <img width="70%" alt="Pivot-Prompt" src="https://user-images.githubusercontent.com/31032829/215824464-cd16962e-1257-446f-a9ef-5909484fb4bc.png">
     <p class="image-caption">Figure 2: Translation results by ChatGPT with pivot prompting (Date: 2023.01.31).</p>
+</div>
+
+<div align="center">
+    <img width="40%" alt="image" src="https://user-images.githubusercontent.com/31032829/215826297-2ae65654-d910-4fac-996b-834e6e6c7539.png">
+    <p class="image-caption">Table 3: Performance of ChatGPT with pivot prompting. New results are obtained from the updated ChatGPT version on 2023.01.31. LR: length ratio.</p>
 </div>
 
 
@@ -52,7 +59,7 @@ Summarized prompts:
 
 <div align="center">
     <img width="50%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
-    <p class="image-caption">Table 3: Performance of ChatGPT for translation robustness.</p>
+    <p class="image-caption">Table 4: Performance of ChatGPT for translation robustness.</p>
 </div>
 
 
