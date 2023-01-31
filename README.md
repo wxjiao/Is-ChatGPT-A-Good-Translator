@@ -4,8 +4,8 @@ A preliminary evaluation of ChatGPT for machine translation. [[V1]](https://wxji
 
 We should admit that the report is far from complete with various aspects to make it more reliable in the future:
 - **Coverage of Test Data**: Currently, we randomly select 50 samples from each test set for evaluation due to the response delay of ChatGPT. While there are some projects in GitHub trying to automate the access process, they are vulnerable to browser refreshes or network issues. The official API by OpenAI in the future may be a better choice. Let’s just wait for a moment.
-- **Reproducibility Issue**: By querying ChatGPT multiple times, we found that the results of the same query may vary across multiple trials, which brings randomness to the evaluation results. For more reliable results, it is best to repeat the translation multiple times for each test set and report the average result.
-- **Evaluation Metric**: The results here are cal- culated by automatic metrics with single references, which may not reflect some characteristics of translation properly, e.g., nativeness. Human evaluation can provide more insights for comparing ChatGPT with commercial translators.
+- **Reproducibility Issue**: By querying ChatGPT multiple times, we find that the results of the same query may vary across multiple trials, which brings randomness to the evaluation results. For more reliable results, it is best to repeat the translation multiple times for each test set and report the average result.
+- **Evaluation Metric**: The results here are calculated by automatic metrics with single references, which may not reflect some characteristics of translation properly, e.g., nativeness. Human evaluation can provide more insights for comparing ChatGPT with commercial translators.
 - **Translation Abilities**: We only focus on multilingual translation and translation robustness in this report. However, there are some other translation abilities that can be further evaluated, e.g., constrained machine translation and document-level machine translation.
 
 
