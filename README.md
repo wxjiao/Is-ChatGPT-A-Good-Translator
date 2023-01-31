@@ -39,6 +39,15 @@ Summarized prompts:
     <p class="image-caption">Table 2: Performance of ChatGPT for multilingual translation.</p>
 </div>
 
+## Pivot Prompting (Updates)
+
+<div align="center">
+    <img width="40%" alt="Pivot-Prompt" src="https://user-images.githubusercontent.com/31032829/215824464-cd16962e-1257-446f-a9ef-5909484fb4bc.png">
+    <p class="image-caption">Figure 2: Translation results by ChatGPT with pivot prompting (Date: 2023.01.31).</p>
+</div>
+
+
+
 ## Translation Robustness
 
 <div align="center">
