@@ -1,12 +1,8 @@
 # Is ChatGPT A Good Translator? A Preliminary Study
 
-A preliminary evaluation of ChatGPT for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf)  [[V2-arXiv]](https://arxiv.org/abs/2301.08745)
+We conduct a preliminary evaluation of ChatGPT for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf)  [[ArXiv-V1]](https://arxiv.org/abs/2301.08745) [[ArXiv-V2]](https://To-be-announced) 
 
-We should admit that the report is far from complete with various aspects to make it more reliable in the future:
-- **Coverage of Test Data**: Currently, we randomly select 50 samples from each test set for evaluation due to the response delay of ChatGPT. While there are some projects in GitHub trying to automate the access process, they are vulnerable to browser refreshes or network issues. The official API by OpenAI in the future may be a better choice. Let’s just wait for a moment.
-- **Reproducibility Issue**: By querying ChatGPT multiple times, we find that the results of the same query may vary across multiple trials, which brings randomness to the evaluation results. For more reliable results, it is best to repeat the translation multiple times for each test set and report the average result.
-- **Evaluation Metric**: The results here are calculated by automatic metrics with single references, which may not reflect some characteristics of translation properly, e.g., nativeness. Human evaluation can provide more insights for comparing ChatGPT with commercial translators.
-- **Translation Abilities**: We only focus on multilingual translation and translation robustness in this report. However, there are some other translation abilities that can be further evaluated, e.g., constrained machine translation and document-level machine translation.
+This repository shows the main findings and releases the evaluated test sets as well as the translation outputs, for the replication of the study.
 
 
 ## Test Data
@@ -16,8 +12,11 @@ Please kindly cite the papers of the data sources if you use any of them.
 - **WMT20 Robustness**: Findings of the WMT 2020 Shared Task on Machine Translation Robustness
 
 
-## Translation Prompt
+## Main Findings
 
+### Translation Prompt
+
+We ask ChatGPT for advice to trigger the translation ability:
 <div align="center">
     <img width="70%" alt="Templates-by-ChatGPT" src="https://user-images.githubusercontent.com/31032829/213847658-fc977b1f-2ebd-4f2e-91b0-8df337d0a27e.png">
     <p class="image-caption">Figure 1: Prompts advised by ChatGPT for machine translation (Date: 2022.12.16).</p>
@@ -34,8 +33,9 @@ Summarized prompts:
 </div>
 
 
-## Multilingual Translation
+### Multilingual Translation
 
+We evaluate the translations between four languages, namely, German, English, Romanian and Chinese, considering both the resource and language family effects:
 <div align="center">
     <img width="70%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848377-8c4d40d4-04de-4735-87fe-d22fd3f70dd9.png">
     <p class="image-caption">Table 2: Performance of ChatGPT for multilingual translation.</p>
@@ -43,7 +43,7 @@ Summarized prompts:
 
 
 
-## Pivot Prompting (Updates)
+### Pivot Prompting (Updates)
 
 Adjusted prompt:
 - Tp3-pivot: `Please provide the [PIV] translation first and then the [TGT] translation for these sentences one by one:`
@@ -60,12 +60,23 @@ Adjusted prompt:
 
 
 
-## Translation Robustness
+### Translation Robustness
 
 <div align="center">
     <img width="50%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
     <p class="image-caption">Table 4: Performance of ChatGPT for translation robustness.</p>
 </div>
+
+
+## Limitations
+
+
+We should admit that the report is far from complete with various aspects to make it more reliable in the future:
+- **Coverage of Test Data**: Currently, we randomly select 50 samples from each test set for evaluation due to the response delay of ChatGPT. While there are some projects in GitHub trying to automate the access process, they are vulnerable to browser refreshes or network issues. The official API by OpenAI in the future may be a better choice. Let’s just wait for a moment.
+- **Reproducibility Issue**: By querying ChatGPT multiple times, we find that the results of the same query may vary across multiple trials, which brings randomness to the evaluation results. For more reliable results, it is best to repeat the translation multiple times for each test set and report the average result.
+- **Evaluation Metric**: The results here are calculated by automatic metrics with single references, which may not reflect some characteristics of translation properly, e.g., nativeness. Human evaluation can provide more insights for comparing ChatGPT with commercial translators.
+- **Translation Abilities**: We only focus on multilingual translation and translation robustness in this report. However, there are some other translation abilities that can be further evaluated, e.g., constrained machine translation and document-level machine translation.
+
 
 
 ## Public Impact
