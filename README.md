@@ -1,6 +1,6 @@
 # Is ChatGPT A Good Translator? A Preliminary Study
 
-We conduct a preliminary evaluation of ChatGPT for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf)  [[ArXiv-V1]](https://arxiv.org/abs/2301.08745) [[ArXiv-V2]](https://To-be-announced) 
+We conduct a preliminary evaluation of ChatGPT for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf)  [[ArXiv-V1]](https://arxiv.org/abs/2301.08745) [[ArXiv-V2]](https://arxiv.org/abs/2301.08745v2) 
 
 This repository shows the main findings and releases the evaluated test sets as well as the translation outputs, for the replication of the study.
 
@@ -28,7 +28,7 @@ Summarized prompts:
 - Tp3: `Please provide the [TGT] translation for these sentences:`
 
 <div align="center">
-    <img width="40%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848303-4aa969c5-61d7-4dc8-b675-5a539657db67.png">
+    <img width="42%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848303-4aa969c5-61d7-4dc8-b675-5a539657db67.png">
     <p class="image-caption">Table 1: Comparison of different prompts for ChatGPT to perform Chinese-to-English (Zh⇒En) translation.</p>
 </div>
 
@@ -45,7 +45,7 @@ We evaluate the translations between four languages, namely, German, English, Ro
 
 ### Pivot Prompting (Updates)
 
-Adjusted prompt:
+For distant languages, we explore an interesting strategy named **Pivot Prompting** that asks ChatGPT to translate the source sentence into a high-resource pivot language before into the target language. Thus, we adjust the Tp3 prompt as below:
 - Tp3-pivot: `Please provide the [PIV] translation first and then the [TGT] translation for these sentences one by one:`
 
 <div align="center">
@@ -59,11 +59,12 @@ Adjusted prompt:
 </div>
 
 
-
 ### Translation Robustness
 
+We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches:
+
 <div align="center">
-    <img width="50%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
+    <img width="52%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
     <p class="image-caption">Table 4: Performance of ChatGPT for translation robustness.</p>
 </div>
 
@@ -80,6 +81,9 @@ We should admit that the report is far from complete with various aspects to mak
 
 
 ## Public Impact
+### Community
+- Slator: [Tencent Pits ChatGPT Translation Quality Against DeepL and Google Translate](https://slator.com/tencent-pits-chatgpt-translation-quality-against-deepl-google-translate/)
+
 ### Citation
 Please kindly cite our report if you find it helpful:
 
