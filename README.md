@@ -1,6 +1,6 @@
 # Is ChatGPT A Good Translator? A Preliminary Study
 
-We conduct a preliminary evaluation of ChatGPT for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf) [[V2-ArXiv]](https://arxiv.org/abs/2301.08745v2)
+We conduct a preliminary evaluation of ChatGPT/GPT-4 for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf) [[V2-ArXiv]](https://arxiv.org/abs/2301.08745v2)
 
 This repository shows the main findings and releases the evaluated test sets as well as the translation outputs, for the replication of the study.
 
