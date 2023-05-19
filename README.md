@@ -6,7 +6,7 @@ This repository shows the main findings and releases the evaluated test sets as 
 
 ## Updates for [GPT-4](https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study)
 
-We update the translation performance of GPT-4, which exhibits huge improvements over ChatGPT. Refer to [alpaca-mt](https://github.com/wxjiao/alpaca-mt) for the COMET metric results.
+We update the translation performance of GPT-4, which exhibits huge improvements over ChatGPT. Refer to [ParroT](https://github.com/wxjiao/ParroT) for the COMET metric results.
 <div align="center">
     <img width="70%" alt="Templates-by-ChatGPT" src="https://user-images.githubusercontent.com/31032829/228460011-372e0891-9b7d-4571-8a7f-d849e6b0821c.png">
     <p class="image-caption">Figure 0: Translation performance of GPT-4 (Date: 2023.03.15). </p>
