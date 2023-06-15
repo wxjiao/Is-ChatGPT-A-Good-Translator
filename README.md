@@ -89,6 +89,12 @@ We should admit that the report is far from complete with various aspects to mak
 
 
 ## Public Impact
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wxjiao/Is-ChatGPT-A-Good-Translator&type=Date)](https://star-history.com/#wxjiao/Is-ChatGPT-A-Good-Translator&Date)
+
+
 ### Community
 - Slator: [Tencent Pits ChatGPT Translation Quality Against DeepL and Google Translate](https://slator.com/tencent-pits-chatgpt-translation-quality-against-deepl-google-translate/)
 
