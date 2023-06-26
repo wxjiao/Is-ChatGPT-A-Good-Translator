@@ -120,7 +120,7 @@ A few translation outputs:
 4. GPT-4 translates the terminology "狼孩" more properly based on the context while Google Translate and ChatGPT cannot.
 
 <div align="center">
-    <img width="80%" alt="Cases" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/b6e9a278-0268-4df5-b2f4-30e8b382d476">
+    <img width="90%" alt="Cases" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/b6e9a278-0268-4df5-b2f4-30e8b382d476">
     <p class="image-caption">Table 10: Examples from Flores Zh⇒En test set. </p>
 </div>
 
