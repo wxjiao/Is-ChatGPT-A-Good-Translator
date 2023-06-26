@@ -84,8 +84,8 @@ We update the translation performance of GPT-4, which exhibits huge improvements
 
 ### Automatic Analysis
 We analyze the translation outputs with [`compare-mt`](https://github.com/neulab/compare-mt) at both word level and sentence level.
--  ChatGPT performs the worst on low-frequency words, which is then fixed by GPT-4.
--  ChatGPT performs the worst on short sentences, which we attribute to the observations that ChatGPT translates famous terminologies into full names rather than abbreviations in references.  
+- [x] ChatGPT performs the worst on low-frequency words, which is then fixed by GPT-4.
+- [x] ChatGPT performs the worst on short sentences, which we attribute to the observations that ChatGPT translates famous terminologies into full names rather than abbreviations in references.  
 
 <div align="center">
     <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/6fcb3a76-827a-4335-9e8d-b7dd73aca8c5">
@@ -95,6 +95,9 @@ We analyze the translation outputs with [`compare-mt`](https://github.com/neulab
 
 
 ### Human Analysis
+We ask three annotators to identify the errors in the translation outputs (Wang et al., 2022a), including under-translation (i.e., Und-Trans), over-translation (i.e., Ove-Trans), and mis-translation (i.e., Mis-Trans). Based on the translation errors, the annotators rank the translation outputs of Google, ChatGPT and GPT-4 accordingly, with 1 as the best system and 3 as the worst. 
+- [x] ChatGPT makes more over-translation errors and mis-translation errors than Google Translate, tending to generate hallucinations.
+- [x] GPT-4 makes the least errors and is ranked 1st though its BLEU score is lower than that of Google Translate.
 
 <div align="center">
     <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/197d3268-ca84-476e-bb37-b31ecf6e5206">
