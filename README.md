@@ -48,7 +48,7 @@ We evaluate the translations between four languages, namely, German, English, Ro
 ### Translation Robustness
 
 We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches.
-- ChatGPT does not perform as well as the commercial systems on biomedical abstracts or Reddit comments but exhibits good results on spoken language.
+- [x] ChatGPT does not perform as well as the commercial systems on biomedical abstracts or Reddit comments but exhibits good results on spoken language.
 
 <div align="center">
     <img width="42%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/9eec7ce9-16f5-4d3e-80ce-cae67bc647e1">
