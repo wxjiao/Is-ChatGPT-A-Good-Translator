@@ -47,7 +47,7 @@ We evaluate the translations between four languages, namely, German, English, Ro
 We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches:
 
 <div align="center">
-    <img width="44%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/9eec7ce9-16f5-4d3e-80ce-cae67bc647e1">
+    <img width="42%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/9eec7ce9-16f5-4d3e-80ce-cae67bc647e1">
     <p class="image-caption">Table 3: Performance of ChatGPT for translation robustness.</p>
 </div>
 
@@ -82,9 +82,10 @@ We update the translation performance of GPT-4, which exhibits huge improvements
 
 ## Extensive Analysis
 
-Coming soon...
-
 ### Automatic Analysis
+We analyze the translation outputs with [`compare-mt`](https://github.com/neulab/compare-mt) at both word level and sentence level.
+-  ChatGPT performs the worst on low-frequency words, which is then fixed by GPT-4.
+-  ChatGPT performs the worst on short sentences, which we attribute to the observations that ChatGPT translates famous terminologies into full names rather than abbreviations in references.  
 
 <div align="center">
     <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/6fcb3a76-827a-4335-9e8d-b7dd73aca8c5">
