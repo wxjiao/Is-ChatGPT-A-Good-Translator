@@ -49,7 +49,7 @@ We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddi
 
 <div align="center">
     <img width="44%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/9eec7ce9-16f5-4d3e-80ce-cae67bc647e1">
-    <p class="image-caption">Table 4: Performance of ChatGPT for translation robustness.</p>
+    <p class="image-caption">Table 3: Performance of ChatGPT for translation robustness.</p>
 </div>
 
 
@@ -68,7 +68,7 @@ For distant languages, we explore an interesting strategy named **Pivot Promptin
 
 <div align="center">
     <img width="40%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/6e92f8a4-44e9-4ce3-b295-78249cc032c5">
-    <p class="image-caption">Table 3: Performance of ChatGPT with pivot prompting. New results are obtained from the updated ChatGPT version on 2023.01.31. LR: length ratio.</p>
+    <p class="image-caption">Table 4: Performance of ChatGPT with pivot prompting. New results are obtained from the updated ChatGPT version on 2023.01.31. LR: length ratio.</p>
 </div>
 
 
@@ -77,7 +77,7 @@ For distant languages, we explore an interesting strategy named **Pivot Promptin
 We update the translation performance of GPT-4, which exhibits huge improvements over ChatGPT. Refer to [[ParroT]](https://github.com/wxjiao/ParroT) for the COMET metric results.
 <div align="center">
     <img width="70%" alt="Templates-by-ChatGPT" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/1297c121-33d8-4b5f-9cad-7eb09b75f97f">
-    <p class="image-caption">Table 4: Translation performance of GPT-4 (Date: 2023.03.15). </p>
+    <p class="image-caption">Table 5: Translation performance of GPT-4 (Date: 2023.03.15). </p>
 </div>
 
 
