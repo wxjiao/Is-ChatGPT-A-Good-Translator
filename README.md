@@ -1,28 +1,21 @@
 # Is ChatGPT A Good Translator? A Preliminary Study
 
-We conduct a preliminary evaluation of ChatGPT/GPT-4 for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf) [[V2-ArXiv]](https://arxiv.org/abs/2301.08745v2) [[V3-ArXiv]](https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study)
+We conduct a preliminary evaluation of ChatGPT/GPT-4 for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf) [[arXiv]](https://arxiv.org/abs/2301.08745) 
 
 This repository shows the main findings and releases the evaluated test sets as well as the translation outputs, for the replication of the study.
 
-## Updates for [GPT-4](https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study)
 
-We update the translation performance of GPT-4, which exhibits huge improvements over ChatGPT. Refer to [[ParroT]](https://github.com/wxjiao/ParroT) for the COMET metric results.
-<div align="center">
-    <img width="70%" alt="Templates-by-ChatGPT" src="https://user-images.githubusercontent.com/31032829/228460011-372e0891-9b7d-4571-8a7f-d849e6b0821c.png">
-    <p class="image-caption">Figure 0: Translation performance of GPT-4 (Date: 2023.03.15). </p>
-</div>
+## ChatGPT for Machine Translation
 
-
-## Test Data
+### Test Data
 Please kindly cite the papers of the data sources if you use any of them.
 - **Flores**: The FLORES-101  Evaluation Benchmark for Low-Resource and Multilingual Machine Translation
 - **WMT19 Biomedical**: Findings of the WMT 2019 Biomedical Translation Shared Task: Evaluation for Medline Abstracts and Biomedical Terminologies
 - **WMT20 Robustness**: Findings of the WMT 2020 Shared Task on Machine Translation Robustness
 
 
-## Main Findings
+### Translation Prompts
 
-### Translation Prompt
 
 We ask ChatGPT for advice to trigger the translation ability:
 <div align="center">
@@ -50,8 +43,21 @@ We evaluate the translations between four languages, namely, German, English, Ro
 </div>
 
 
+### Translation Robustness
 
-### Pivot Prompting (Updates)
+We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches:
+
+<div align="center">
+    <img width="52%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
+    <p class="image-caption">Table 4: Performance of ChatGPT for translation robustness.</p>
+</div>
+
+
+
+
+## Improving ChatGPT for MT
+
+### Pivot Prompting
 
 For distant languages, we explore an interesting strategy named **Pivot Prompting** that asks ChatGPT to translate the source sentence into a high-resource pivot language before into the target language. Thus, we adjust the Tp3 prompt as below:
 - Tp3-pivot: `Please provide the [PIV] translation first and then the [TGT] translation for these sentences one by one:`
@@ -66,15 +72,28 @@ For distant languages, we explore an interesting strategy named **Pivot Promptin
     <p class="image-caption">Table 3: Performance of ChatGPT with pivot prompting. New results are obtained from the updated ChatGPT version on 2023.01.31. LR: length ratio.</p>
 </div>
 
+### GPT-4 as the Engine
 
-### Translation Robustness
-
-We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches:
-
+We update the translation performance of GPT-4, which exhibits huge improvements over ChatGPT. Refer to [[ParroT]](https://github.com/wxjiao/ParroT) for the COMET metric results.
 <div align="center">
-    <img width="52%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
-    <p class="image-caption">Table 4: Performance of ChatGPT for translation robustness.</p>
+    <img width="70%" alt="Templates-by-ChatGPT" src="https://user-images.githubusercontent.com/31032829/228460011-372e0891-9b7d-4571-8a7f-d849e6b0821c.png">
+    <p class="image-caption">Figure 0: Translation performance of GPT-4 (Date: 2023.03.15). </p>
 </div>
+
+
+## Extensive Analysis
+
+### Automatic Analysis
+
+
+### Human Analysis
+
+
+### Case Study
+
+
+
+
 
 
 ## Limitations
@@ -83,7 +102,6 @@ We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddi
 We should admit that the report is far from complete with various aspects to make it more reliable in the future:
 - **Coverage of Test Data**: Currently, we randomly select 50 samples from each test set for evaluation due to the response delay of ChatGPT. While there are some projects in GitHub trying to automate the access process, they are vulnerable to browser refreshes or network issues. The official API by OpenAI in the future may be a better choice. Let’s just wait for a moment.
 - **Reproducibility Issue**: By querying ChatGPT multiple times, we find that the results of the same query may vary across multiple trials, which brings randomness to the evaluation results. For more reliable results, it is best to repeat the translation multiple times for each test set and report the average result.
-- **Evaluation Metric**: The results here are calculated by automatic metrics with single references, which may not reflect some characteristics of translation properly, e.g., nativeness. Human evaluation can provide more insights for comparing ChatGPT with commercial translators.
 - **Translation Abilities**: We only focus on multilingual translation and translation robustness in this report. However, there are some other translation abilities that can be further evaluated, e.g., constrained machine translation and document-level machine translation.
 
 
