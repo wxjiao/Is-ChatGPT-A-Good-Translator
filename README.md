@@ -100,7 +100,7 @@ We analyze the translation outputs with [`compare-mt`](https://github.com/neulab
 
 
 ### Human Analysis
-We ask three annotators to identify the errors in the translation outputs (Wang et al., 2022a), including under-translation (i.e., Und-Trans), over-translation (i.e., Ove-Trans), and mis-translation (i.e., Mis-Trans). Based on the translation errors, the annotators rank the translation outputs of Google, ChatGPT and GPT-4 accordingly, with 1 as the best system and 3 as the worst. 
+We ask three annotators to identify the errors in the translation outputs, including under-translation, over-translation, and mis-translation. Based on the translation errors, the annotators rank the translation outputs of Google, ChatGPT and GPT-4 accordingly, with 1 as the best system and 3 as the worst. 
 - [x] ChatGPT makes more over-translation errors and mis-translation errors than Google Translate, tending to generate hallucinations.
 - [x] GPT-4 makes the least errors and is ranked 1st though its BLEU score is lower than that of Google Translate.
 
@@ -140,7 +140,10 @@ We should admit that the report is far from complete with various aspects to mak
 
 
 ### Community
-- Slator: [Tencent Pits ChatGPT Translation Quality Against DeepL and Google Translate](https://slator.com/tencent-pits-chatgpt-translation-quality-against-deepl-google-translate/)
+- Slator report: [Tencent Pits ChatGPT Translation Quality Against DeepL and Google Translate](https://slator.com/tencent-pits-chatgpt-translation-quality-against-deepl-google-translate/)
+- Twitter discussions: [AK](https://twitter.com/_akhaliq/status/1617710116827963392), [Aran Komatsuzaki
+](https://twitter.com/arankomatsuzaki/status/1617708239906549761), [Haruhiko Okumura
+](https://twitter.com/h_okumura/status/1638079006351437824), [Daun](https://twitter.com/daun_ai/status/1648083948562690050)
 
 ### Citation
 Please kindly cite our report if you find it helpful:
