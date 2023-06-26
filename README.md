@@ -9,13 +9,12 @@ This repository shows the main findings and releases the evaluated test sets as 
 
 ### Test Data
 Please kindly cite the papers of the data sources if you use any of them.
-- **Flores**: The FLORES-101  Evaluation Benchmark for Low-Resource and Multilingual Machine Translation
-- **WMT19 Biomedical**: Findings of the WMT 2019 Biomedical Translation Shared Task: Evaluation for Medline Abstracts and Biomedical Terminologies
-- **WMT20 Robustness**: Findings of the WMT 2020 Shared Task on Machine Translation Robustness
+- [**Flores**](https://github.com/facebookresearch/flores): The FLORES-101  Evaluation Benchmark for Low-Resource and Multilingual Machine Translation
+- [**WMT19 Biomedical**](https://github.com/hsing-wang/WMT2020_BioMedical/tree/master/Bio-18-19-testset): Findings of the WMT 2019 Biomedical Translation Shared Task: Evaluation for Medline Abstracts and Biomedical Terminologies
+- [**WMT20 Robustness**](https://aclanthology.org/2020.wmt-1.4/): Findings of the WMT 2020 Shared Task on Machine Translation Robustness
 
 
 ### Translation Prompts
-
 
 We ask ChatGPT for advice to trigger the translation ability:
 <div align="center">
@@ -93,9 +92,16 @@ Coming soon...
 
 ### Case Study
 
+Translation outputs for an intuitive understanding:
+1. The first example shows the hallucination of ChatGPT at the first few tokens and the inaccurate translation of 过量降水.
+2. The second example shows that both ChatGPT and GPT-4 translate 广泛耐药结核病 into the full name while the reference and Google Translate do not.
+3. The third example shows that GPT-4 can also translate the terminology 美国公共广播公司 into the abbreviation.
+4. The last example suggests that GPT-4 is able to translate the terminology 狼孩 more properly based on the context while Google Translate and ChatGPT fail to.
 
-
-
+<div align="center">
+    <img width="70%" alt="Cases" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/b6e9a278-0268-4df5-b2f4-30e8b382d476">
+    <p class="image-caption">Table xx: Examples from Flores Zh⇒En test set. </p>
+</div>
 
 
 ## Limitations
