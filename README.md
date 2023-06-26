@@ -48,10 +48,9 @@ We evaluate the translations between four languages, namely, German, English, Ro
 We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches:
 
 <div align="center">
-    <img width="52%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848428-069891f5-4de0-4922-83f8-2f0c1b163d26.png">
+    <img width="44%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/9eec7ce9-16f5-4d3e-80ce-cae67bc647e1">
     <p class="image-caption">Table 4: Performance of ChatGPT for translation robustness.</p>
 </div>
-
 
 
 
