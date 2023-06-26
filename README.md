@@ -95,6 +95,12 @@ Coming soon...
 
 ### Human Analysis
 
+<div align="center">
+    <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/197d3268-ca84-476e-bb37-b31ecf6e5206">
+    <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/55f05725-3bd8-4d2e-9025-4684f58739b8">
+    <p class="image-caption">Table x: Human analysis: (a) Number of translation errors annotated by human. (b) Human rankings of the translation outputs. </p>
+</div>
+
 
 ### Case Study
 
