@@ -1,4 +1,4 @@
-# Is ChatGPT A Good Translator? Yes With GPT-4 As The Engine
+# Is ChatGPT A Good Translator? A Preliminary Study
 
 We conduct a preliminary evaluation of ChatGPT/GPT-4 for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf) [[V2-ArXiv]](https://arxiv.org/abs/2301.08745v2) [[V3-ArXiv]](https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study)
 
