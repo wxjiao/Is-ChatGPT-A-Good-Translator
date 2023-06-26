@@ -86,6 +86,12 @@ Coming soon...
 
 ### Automatic Analysis
 
+<div align="center">
+    <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/6fcb3a76-827a-4335-9e8d-b7dd73aca8c5">
+    <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/3ea1a67b-bb34-4098-bd5f-52736f11f0e4">
+    <p class="image-caption">Table x: Automatic analysis: (a) F-measure of target word prediction w.r.t. frequency. (b) BLEU score w.r.t. length bucket of target sentences. </p>
+</div>
+
 
 ### Human Analysis
 
