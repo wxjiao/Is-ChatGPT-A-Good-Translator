@@ -67,16 +67,17 @@ For distant languages, we explore an interesting strategy named **Pivot Promptin
 </div>
 
 <div align="center">
-    <img width="40%" alt="image" src="https://user-images.githubusercontent.com/31032829/215826297-2ae65654-d910-4fac-996b-834e6e6c7539.png">
+    <img width="40%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/6e92f8a4-44e9-4ce3-b295-78249cc032c5">
     <p class="image-caption">Table 3: Performance of ChatGPT with pivot prompting. New results are obtained from the updated ChatGPT version on 2023.01.31. LR: length ratio.</p>
 </div>
+
 
 ### GPT-4 as the Engine
 
 We update the translation performance of GPT-4, which exhibits huge improvements over ChatGPT. Refer to [[ParroT]](https://github.com/wxjiao/ParroT) for the COMET metric results.
 <div align="center">
-    <img width="70%" alt="Templates-by-ChatGPT" src="https://user-images.githubusercontent.com/31032829/228460011-372e0891-9b7d-4571-8a7f-d849e6b0821c.png">
-    <p class="image-caption">Figure 0: Translation performance of GPT-4 (Date: 2023.03.15). </p>
+    <img width="70%" alt="Templates-by-ChatGPT" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/1297c121-33d8-4b5f-9cad-7eb09b75f97f">
+    <p class="image-caption">Table 4: Translation performance of GPT-4 (Date: 2023.03.15). </p>
 </div>
 
 
