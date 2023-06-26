@@ -95,7 +95,7 @@ We analyze the translation outputs with [`compare-mt`](https://github.com/neulab
 <div align="center">
     <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/6fcb3a76-827a-4335-9e8d-b7dd73aca8c5">
     <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/3ea1a67b-bb34-4098-bd5f-52736f11f0e4">
-    <p class="image-caption">Table x: Automatic analysis: (a) F-measure of target word prediction w.r.t. frequency. (b) BLEU score w.r.t. length bucket of target sentences. </p>
+    <p class="image-caption">Table 6-7: Automatic analysis: (a) F-measure of target word prediction w.r.t. frequency. (b) BLEU score w.r.t. length bucket of target sentences. </p>
 </div>
 
 
@@ -107,7 +107,7 @@ We ask three annotators to identify the errors in the translation outputs (Wang 
 <div align="center">
     <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/197d3268-ca84-476e-bb37-b31ecf6e5206">
     <img width="35%" alt="auto" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/55f05725-3bd8-4d2e-9025-4684f58739b8">
-    <p class="image-caption">Table x: Human analysis: (a) Number of translation errors annotated by human. (b) Human rankings of the translation outputs. </p>
+    <p class="image-caption">Table 8-9: Human analysis: (a) Number of translation errors annotated by human. (b) Human rankings of the translation outputs. </p>
 </div>
 
 
@@ -121,7 +121,7 @@ A few translation outputs:
 
 <div align="center">
     <img width="80%" alt="Cases" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/b6e9a278-0268-4df5-b2f4-30e8b382d476">
-    <p class="image-caption">Table xx: Examples from Flores Zh⇒En test set. </p>
+    <p class="image-caption">Table 10: Examples from Flores Zh⇒En test set. </p>
 </div>
 
 
