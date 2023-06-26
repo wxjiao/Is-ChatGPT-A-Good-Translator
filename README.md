@@ -25,7 +25,7 @@ We ask ChatGPT for advice to trigger the translation ability:
 Summarized prompts:
 - Tp1: `Translate these sentences from [SRC] to [TGT]:`
 - Tp2: `Answer with no quotes. What do these sentences mean in [TGT]?`
-- Tp3: `Please provide the [TGT] translation for these sentences:`
+- Tp3: `Please provide the [TGT] translation for these sentences:`  :white_check_mark:
 
 <div align="center">
     <img width="42%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/d696165d-7ca7-4e6c-91a5-822f12e58f8f">
