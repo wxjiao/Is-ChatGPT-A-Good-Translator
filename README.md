@@ -35,7 +35,10 @@ Summarized prompts:
 
 ### Multilingual Translation
 
-We evaluate the translations between four languages, namely, German, English, Romanian and Chinese, considering both the resource and language family effects:
+We evaluate the translations between four languages, namely, German, English, Romanian and Chinese, considering both the resource and language family effects.
+- [x] ChatGPT performs competitively with commercial translation products (e.g., Google Translate) on high-resource European languages but lags behind significantly on low-resource.
+- [x] The gap between ChatGPT and the commercial systems becomes larger on distant languages than close languages. 
+
 <div align="center">
     <img width="70%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/bff8f331-76d8-4d97-a3f7-0c7cd536d62f">
     <p class="image-caption">Table 2: Performance of ChatGPT for multilingual translation.</p>
@@ -44,7 +47,8 @@ We evaluate the translations between four languages, namely, German, English, Ro
 
 ### Translation Robustness
 
-We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches:
+We evaluate the translation robustness of ChatGPT on biomedical abstracts, reddit comments, and crowdsourced speeches.
+- ChatGPT does not perform as well as the commercial systems on biomedical abstracts or Reddit comments but exhibits good results on spoken language.
 
 <div align="center">
     <img width="42%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/9eec7ce9-16f5-4d3e-80ce-cae67bc647e1">
@@ -74,6 +78,7 @@ For distant languages, we explore an interesting strategy named **Pivot Promptin
 ### GPT-4 as the Engine
 
 We update the translation performance of GPT-4, which exhibits huge improvements over ChatGPT. Refer to [[ParroT]](https://github.com/wxjiao/ParroT) for the COMET metric results.
+
 <div align="center">
     <img width="70%" alt="Templates-by-ChatGPT" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/1297c121-33d8-4b5f-9cad-7eb09b75f97f">
     <p class="image-caption">Table 5: Translation performance of GPT-4 (Date: 2023.03.15). </p>
