@@ -29,7 +29,7 @@ Summarized prompts:
 - Tp3: `Please provide the [TGT] translation for these sentences:`
 
 <div align="center">
-    <img width="42%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848303-4aa969c5-61d7-4dc8-b675-5a539657db67.png">
+    <img width="42%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/d696165d-7ca7-4e6c-91a5-822f12e58f8f">
     <p class="image-caption">Table 1: Comparison of different prompts for ChatGPT to perform Chinese-to-English (Zh⇒En) translation.</p>
 </div>
 
@@ -38,7 +38,7 @@ Summarized prompts:
 
 We evaluate the translations between four languages, namely, German, English, Romanian and Chinese, considering both the resource and language family effects:
 <div align="center">
-    <img width="70%" alt="image" src="https://user-images.githubusercontent.com/31032829/213848377-8c4d40d4-04de-4735-87fe-d22fd3f70dd9.png">
+    <img width="70%" alt="image" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/bff8f331-76d8-4d97-a3f7-0c7cd536d62f">
     <p class="image-caption">Table 2: Performance of ChatGPT for multilingual translation.</p>
 </div>
 
