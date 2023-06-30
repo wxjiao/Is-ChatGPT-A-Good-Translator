@@ -1,4 +1,14 @@
+
+<div align="center">
+    <img width="25%" alt="ParroT" src="https://github.com/wxjiao/Is-ChatGPT-A-Good-Translator/assets/31032829/9ff13ff1-8e25-40bc-962e-80015cd82440">
+    <h2>
+    Is ChatGPT A Good Translator?
+    </h2>
+</div>
+
+<!---
 # Is ChatGPT A Good Translator? A Preliminary Study
+--->
 
 We conduct a preliminary evaluation of ChatGPT/GPT-4 for machine translation. [[V1]](https://wxjiao.github.io/downloads/tech_chatgpt_arxiv.pdf) [[arXiv]](https://arxiv.org/abs/2301.08745) 
 
