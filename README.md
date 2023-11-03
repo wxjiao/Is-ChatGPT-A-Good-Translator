@@ -161,7 +161,7 @@ Please kindly cite our report if you find it helpful:
 ```ruby
 @inproceedings{jiao2023ischatgpt,
   title={Is ChatGPT A Good Translator? A Preliminary Study},
-  author={Wenxiang Jiao and Wenxuan Wang and Jen-tse Huang and Xing Wang and Zhaopeng Tu},
+  author={Wenxiang Jiao and Wenxuan Wang and Jen-tse Huang and Xing Wang and Shuming Shi and Zhaopeng Tu},
   booktitle = {ArXiv},
   year      = {2023}
 }
