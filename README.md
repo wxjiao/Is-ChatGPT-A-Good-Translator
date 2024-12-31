@@ -15,7 +15,6 @@ We conduct a preliminary evaluation of ChatGPT/GPT-4 for machine translation. [[
 This repository shows the main findings and releases the evaluated test sets as well as the translation outputs, for the replication of the study.
 
 
-
 ## ChatGPT for Machine Translation
 
 ### Test Data
